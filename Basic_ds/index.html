@@ -4,15 +4,22 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap"
+      rel="stylesheet"
+    />
     <title>Basic Design System</title>
   </head>
   <body>
     <header>
-        <h1>Basic Design System</h1>
+      <h1>Basic Design System</h1>
     </header>
     <main>
+      <section class="color-palette">
         <h2>Colors</h2>
-      <section class="color">
+        <div class="color">
         <div class="colorbox primary1">
           <p>Primary</p>
           <p>#3700b3</p>
@@ -35,21 +42,53 @@
         </div>
         <div class="colorbox surface">
           <p>On Secondary</p>
-          <p>#ffffff</p>
+          <p>#000000</p>
         </div>
         <div class="colorbox error">
           <p>Error</p>
           <p>#b00020</p>
         </div>
+      </div>
       </section>
       <section class="typography">
         <h2>Fonts</h2>
+        <div class="font">
+          <div class="font1">
+            <h3 >Roboto</h3>
+            <p style="font-weight: 550; font-size: x-large;">Scar's on the back are a swordsman's shame</p>
+            <p style="font-weight: 500; font-size: large;">Scar's on the back are a swordsman's shame</p>
+            <p style="font-weight: 400; font-size: medium;">Scar's on the back are a swordsman's shame</p>
+            <p style="font-weight: 300; font-size: small;">Scar's on the back are a swordsman's shame</p>
+          </div>
+          <div class="font2">
+            <h3>Popins</h3>
+            <p style="font-weight: 550; font-size: x-large;">Scar's on the back are a swordsman's shame</p>
+            <p style="font-weight: 500; font-size: large;">Scar's on the back are a swordsman's shame</p>
+            <p style="font-weight: 300; font-size: medium;">Scar's on the back are a swordsman's shame</p>
+            <p style="font-weight: 100; font-size: small;">Scar's on the back are a swordsman's shame</p>
+          </div>
+        </div>
       </section>
       <section class="typescale">
         <h2>Type Scale</h2>
+        <div class="scale">
+          <p style="font-size: 3rem;">Heading 1</p>
+          <p style="font-size: 2.5rem;">Heading 2</p>
+          <p style="font-size: 2rem;">Heading 3</p>
+          <p style="font-size: 1.75rem;">Heading 4</p>
+          <p style="font-size: 1.5rem;">Heading 5</p>
+          <p style="font-size: 1.25rem;">Heading 6</p>
+          <p style="font-size: 1rem;">Body</p>
+          <p style="font-size: 0.875rem;">Caption</p>
       </section>
       <section class="buttons">
         <h2>Buttons</h2>
+        <div class="button">
+          <button class="primary">Primary</button>
+          <button class="hover">Hover</button>
+          <button class="focus">Focus</button>
+          <button class="active">Active</button>
+        </div>
       </section>
     </main>
   </body>
