@@ -6,18 +6,32 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="icon" type="image/png" href="Assets/7123013_script_apps_google_icon.png">
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap"
       rel="stylesheet"
     />
-    <title>Basic Design System</title>
+    <title>Website Design System</title>
   </head>
   <body>
-    <header>
-      <h1>Basic Design System</h1>
-    </header>
+    <nav>
+      <div class="logo"><a href="index.html"><img src="Assets/7123013_script_apps_google_icon.png" alt="logo"></a></div>
+      <div class="nav-buttons">
+      <ul>
+        <li class="nav"><a href="#color-palette">Colors</a></li>
+        <li class="nav"><a href="#fonts">Fonts</a></li>
+        <li class="nav"><a href="#typescale">Type Scale</a></li>
+        <li class="nav"><a href="#buttons">Buttons</a></li>
+      </ul>
+    </div>
+    </nav>
+    
     <main>
-      <section class="color-palette">
+      <header>
+        <h1>Website <span>Design System</span></h1>
+      </header>
+
+      <section class="color-palette"  id="color-palette">
         <h2>Colors</h2>
         <div class="color">
         <div class="colorbox primary1">
@@ -50,7 +64,7 @@
         </div>
       </div>
       </section>
-      <section class="typography">
+      <section class="typography" id= "fonts">
         <h2>Fonts</h2>
         <div class="font">
           <div class="font1">
@@ -69,7 +83,7 @@
           </div>
         </div>
       </section>
-      <section class="typescale">
+      <section class="typescale" id="typescale">
         <h2>Type Scale</h2>
         <div class="scale">
           <table class="scale-table">
@@ -109,15 +123,17 @@
             </tbody>
         </table>
       </section>
-      <section class="buttons">
+      <section class="buttons" id="buttons">
         <h2>Buttons</h2>
         <div class="button">
           <button class="primary">Click Me</button>
-          <!-- <button class="hover">Hover</button>
-          <button class="focus">Focus</button>
-          <button class="active">Active</button> -->
+          <button class="hover">Hover</button>
+          <button class="active">Active</button>
         </div>
       </section>
+      <footer>
+        <p>&copy; 2025  Made with ❤️ by Aman</p>
+      </footer>
     </main>
   </body>
 </html>
